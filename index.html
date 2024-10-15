@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="" name="form1" onsubmit="return formValidations()">
+            <input type="text" name="name" id="name" placeholder="Name"><br>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <input type="tel" name="phone" id="phone" placeholder="Phone(123-456-7890)" maxlength="10"><br>
+            <input type="text" name="password" id="password" placeholder="Password"><br>
+            <p id="passwordHint" class="error"></p>
+            <div class="passdetail">
+                <ul>
+                    <p>Password must contain</p>
+                    <li>At least 8 characters</li>
+                    <li>1 lowercase letter</li>
+                    <li>1 uppercase letter</li>
+                    <li>1 number</li>
+                    <li>1 special character (@,#,$,%,etc.)</li>
+                </ul>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #dcd7d7;
+}
+
+.main {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    padding: 20px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+
+.main input {
+    padding: 10px 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.passdetail {
+    margin-top: 20px;
+}
+
+.passdetail p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.passdetail li {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.main button {
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+.main button:hover {
+    background-color: rgba(0, 128, 0, 0.865);
+    color: black;
+}
+
+.error {
+    color: red;
+}
+
+.valid {
+    color: green;
+}
